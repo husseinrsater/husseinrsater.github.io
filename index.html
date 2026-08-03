@@ -56,14 +56,7 @@ nav { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; justify
 .btn-dark:hover { transform:translateY(-1px); opacity:.88; }
 .btn-ghost { background:#B8860B; color:#B8860B; border:1px solid #B8860B; Opacity: 1; }
 .btn-ghost:hover { border-color:var(--text); }
-.highlight-line {
-  display: block; /* Force chaque ligne à être sur une nouvelle ligne */
-  background-color: #f0f0f0; /* Fond gris clair */
-  padding: 4px 0; /* Espacement vertical pour améliorer la lisibilité */
-  text-align: justify; /* Alignement justifié */
-  margin-bottom: 6px; /* Espacement entre les lignes */
-  border-radius: 2px; /* Optionnel : pour adoucir les bords */
-}
+
 /* ━━ STATS ━━ */
 .stats { background:var(--stats-bg); color:var(--stats-text); padding:28px 56px; display:grid; grid-template-columns:repeat(4,1fr); gap:40px; }
 .stat-n { font-family:"Cormorant Garamond",serif; font-size:2.2rem; font-weight:600; line-height:1; }
@@ -178,7 +171,7 @@ footer { border-top:1px solid var(--border); padding:24px 56px; display:flex; ju
   <div class="nav-name">Hussein RSATER</div>
   <ul class="nav-links">
     <li><a href="#about" data-fr="À propos" data-en="About">À propos</a></li>
-    <li><a href="#Certifications" data-fr="Certifications" data-en="Certifications">Certifications</a></li>
+    <li><a href="#Certifications" data-fr="Développement personnel & Projets" data-en="Personal development & Projects">Développement personnel & Projets</a></li>
     <li><a href="#qualities" data-fr="Qualités" data-en="Qualities">Qualités</a></li>
     <li><a href="#education" data-fr="Parcours" data-en="Background">Parcours</a></li>
     <li><a href="#contact" data-fr="Contact" data-en="Contact">Contact</a></li>
@@ -199,11 +192,7 @@ footer { border-top:1px solid var(--border); padding:24px 56px; display:flex; ju
     <div class="hero-name-title" style="font-family:'DM Mono',monospace;font-size:0.75rem;color:var(--muted);margin-bottom:8px;opacity:0;animation:fadeUp .7s .05s ease forwards;" data-fr="Hussein RSATER" data-en="Hussein RSATER">Hussein RSATER</div>
     <div class="hero-eyebrow" data-fr="Diplôme Inter-Universitaire de Formation des Investigateurs et des Chefs de Projet aux Essais Cliniques des Médicaments et des Produits de Santé (FIEC). Attaché de recherche clinique investigateur. Disponible pour une prise de poste dès mi-Septembre.2026" data-en="Seeking opportunities as a Clinical Trial Associate, Clinical Research Associate (CRA), or Study Coordinator. Available strating mid-Septembre 2026">Diplôme Inter-Universitaire de Formation des Investigateurs et des Chefs de Projet aux Essais Cliniques des Médicaments et des Produits de Santé (FIEC). Attaché de recherche clinique investigateur. Disponible pour une prise de poste dès mi-Septembre 2026</div>
     <h1>Clinical Trial Associate <em> & Junior Data Analyst</em></h1>
-    <div class="hero-sub" style="text-align: justify;">
-  <span class="highlight-line" data-fr="Raconté brièvement, mon parcours c'est un passage de la paillasse de laboratoire de biologie moléculaire à la recherche clinique." data-en="Put simply, my career path has taken me from the molecular biology laboratory bench to clinical research."></span>
-  <span class="highlight-line" data-fr="Plus concrètement, c'est un continuum scientifique qui a nourri mon profil polyvalent, capable d'appréhender un projet scientifique dans sa globalité." data-en="Technically speaking, it represents a scientific continuum that has shaped a multidisciplinary profile, enabling me to understand and contribute to scientific projects from end to end."></span>
-  <span class="highlight-line" data-fr="Mon positionnement actuel est celui d'un attaché de recherche clinique investigateur junior : une fonction dans laquelle je peux être rapidement opérationnel et qui représente un point d'ancrage cohérent pour mon évolution professionnelle." data-en="Today, I position myself as a Junior Clinical Research Associate (Investigator Site), a role in which I can quickly become operational and that provides a coherent foundation for my future professional development."></span>
-</div>
+    <P class="hero-sub" style="text-align: justify;" data-fr="Raconté brièvement, mon parcours c'est un passage de la paillasse de laboratoire de biologie moléculaire à la recherche clinique. Plus concrètement, c'est un continuum scientifique qui a nourri mon profil polyvalent, capable d'appréhender un projet scientifique dans sa globalité.Mon positionnement actuel est celui d'un attaché de recherche clinique investigateur junior : une fonction dans laquelle je peux être rapidement opérationnel et qui représente un point d'ancrage cohérent pour mon évolution professinnelle" data-en="Put simply, my career path has taken me from the molecular biology laboratory bench to clinical. Technically speaking, it represents a scientific continuum that has shaped a multidisciplinary profile, enabling me to understand and contribute to scientific projects from end to end."> Raconté brièvement, mon parcours c'est un passage de la paillasse de laboratoire de biologie moléculaire à la recherche clinique. Plus concrètement, c'est un continuum scientifique qui a nourri mon profil polyvalent, capable d'appréhender un projet scientifique dans sa globalité.Mon positionnement actuel est celui d'un attaché de recherche clinique investigateur junior : une fonction dans laquelle je peux être rapidement opérationnel et qui représente un point d'ancrage cohérent pour mon évolution professinnelle</p>
     <div class="hero-chips">
       <span class="chip">Data Management</span><span class="chip">Site logistics</span><span class="chip">Clinical Trial Design</span><span class="chip">Clinical Trial Site Coordination</span><span class="chip">Clinical Trial reporting</span>
     </div>
@@ -244,8 +233,8 @@ footer { border-top:1px solid var(--border); padding:24px 56px; display:flex; ju
 </div>
 
 <hr class="div">
-<section class="section" id="Certifications">
-  <div class="sec-eyebrow" data-fr="Certifications" data-en="Certifications">Certifications</div>
+<section class="section" id="Développement personnel & Projets">
+  <div class="sec-eyebrow" data-fr="Développement personnel & Projets" data-en="Personal development & Projects">Développement personnel & Projets</div>
   <h2 class="sec-title reveal" data-fr="Au-delà des diplômes, je continue <em>d'explorer de nouveaux horizons</em>" data-en="Driven by curiosity, <em>I keep exploring new horizons</em>">Au-delà des diplômes, je continue <em>d'explorer de nouveaux horizons</em></h2>
   <div class="projects-grid">
     <div class="proj reveal">
@@ -266,6 +255,15 @@ footer { border-top:1px solid var(--border); padding:24px 56px; display:flex; ju
         <a href="https://openbadgefactory.com/v1/assertion/974555ef9a687acd9eadb93ac3cee52baf2552eb.html" target="_blank" class="proj-link">Link →</a>
       </div>
     </div>
+    <div class="proj reveal">
+      <img class="proj-banner" src="https://aflip.org/wp-content/uploads/2026/06/Capture-decran-2026-06-03-205638-1-627x540.png" alt="IoT">
+      <div class="proj-body">
+        <div class="proj-top"><div class="proj-title" data-fr="Principes méthodologiques pour une recherche reproductible." data-en="Methodological principles for reproducible research.">Principes méthodologiques pour une recherche reproductible.</div><span class="proj-status s-done" data-fr="Terminé" data-en="Done">Terminé</span></div>
+        <div class="proj-desc" style="text-align: justify" data-fr="Principes méthodologiques pour une science ouverte et transparente inscrite désormais dans « le plan national pour la science ouverte ». Ce cours aborde de manière pratique des thématiques telles que la prise de notes, le document computationnel et la réplicabilité des analyses." data-en="Certification focused on reproducible research practices, covering structured note-taking, data management, version control with GitLab, and computational notebooks to ensure transparent, documented, and reproducible data analyses.">Principes méthodologiques pour une science ouverte et transparente inscrite désormais dans « le plan national pour la science ouverte ». Ce cours aborde de manière pratique des thématiques telles que la prise de notes, le document computationnel et la réplicabilité des analyses.</div>
+        <div class="proj-pills"><span class="pill">Python</span><span class="pill">RStudio</span><span class="pill">GitLab</span><span class="pill">GitHub</span></div>
+        <a href="https://openbadgefactory.com/v1/assertion/974555ef9a687acd9eadb93ac3cee52baf2552eb.html" target="_blank" class="proj-link">Link →</a>
+      </div>
+   </div>
   </div>
 </section>
 
