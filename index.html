@@ -32,11 +32,11 @@ body { background:var(--bg); color:var(--text); font-family:"DM Sans",sans-serif
 nav { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; justify-content:space-between; align-items:center; padding:16px 56px; background:#7c6c12; backdrop-filter:blur(16px); border-bottom:1px solid var(--border); }
 .nav-name { font-family:"Cormorant Garamond",serif; font-size:1.1rem; font-weight:600; color:var(--text); }
 .nav-links { display:flex; gap:28px; list-style:none; }
-.nav-links a { font-size:0.78rem; color:var(--muted); text-decoration:none; font-family:"DM Mono",monospace; transition:color .2s; }
-.nav-links a:hover { color:var(--text); }
+.nav-links a { font-size:0.78rem; color:#f4f4ec; text-decoration:none; font-family:"DM Mono",monospace; transition:color .2s; }
+.nav-links a:hover { color:#080808; }
 .nav-right { display:flex; align-items:center; gap:10px; }
 .lang-toggle { display:flex; gap:5px; }
-.lang-btn { background:none; border:1px solid var(--border2); color:var(--muted); padding:4px 12px; border-radius:20px; cursor:pointer; font-family:"DM Mono",monospace; font-size:0.7rem; transition:all .2s; }
+.lang-btn { background:none; border:1px solid var(--border2); color:#000000; padding:4px 12px; border-radius:20px; cursor:pointer; font-family:"DM Mono",monospace; font-size:0.7rem; transition:all .2s; }
 .lang-btn.active { border-color:var(--text); background:var(--text); color:var(--bg); }
 
 /* ━━ HERO with background image ━━ */
@@ -49,7 +49,7 @@ nav { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; justify
 .hero h1 em { font-style:italic; color:var(--muted); font-weight:400; }
 .hero-sub { font-size:1rem; color: #000000; font-weight:bold; line-height: 1.75; max-width:540px; margin-bottom:36px; opacity:0; animation:fadeUp .7s .3s ease forwards; }
 .hero-chips { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:36px; opacity:0; animation:fadeUp .7s .4s ease forwards; }
-.chip { font-family:"DM Mono",monospace; font-size:.68rem; padding:4px 12px; border-radius:20px; border:1px solid var(--border2); color:#127c29; background:var(--card); }
+.chip { font-family:"DM Mono",monospace; font-size:.68rem; padding:4px 12px; border-radius:20px; border:1px solid var(--border2); color:#f3eded; background:#7c6c12; }
 .hero-cta { display:flex; gap:12px; opacity:0; animation:fadeUp .7s .5s ease forwards; }
 .btn { display:inline-flex; align-items:center; gap:7px; padding:11px 24px; border-radius:8px; font-size:.8rem; font-family:"DM Sans",sans-serif; text-decoration:none; transition:all .2s; cursor:pointer; border:none; font-weight:500; }
 .btn-dark { background:var(--text); color:var(--bg); }
