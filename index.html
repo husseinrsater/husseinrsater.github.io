@@ -56,7 +56,7 @@ nav { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; justify
 .btn-dark:hover { transform:translateY(-1px); opacity:.88; }
 .btn-ghost { background:transparent; color:#B8860B; border:1px solid #B8860B; }
 .btn-ghost:hover { border-color:var(--text); }
-.highlight-line {display: block; /* Force chaque ligne à être sur une nouvelle ligne */background-color: #bed1d5e6; /* Fond gris clair */padding: 4px 0; /* Espacement vertical pour améliorer la lisibilité */text-align: justify; /* Alignement justifié */margin-bottom: 6px; /* Espacement entre les lignes */border-radius: 2px; /* Optionnel : pour adoucir les bords */}
+.highlight-line {display: block; /* Force chaque ligne à être sur une nouvelle ligne */background-color: #e7acace0; /* Fond gris clair */padding: 4px 0; /* Espacement vertical pour améliorer la lisibilité */text-align: justify; /* Alignement justifié */margin-bottom: 6px; /* Espacement entre les lignes */border-radius: 2px; /* Optionnel : pour adoucir les bords */}
 
 /* ━━ STATS ━━ */
 .stats { background:var(--stats-bg); color:var(--stats-text); padding:28px 56px; display:grid; grid-template-columns:repeat(4,1fr); gap:40px; }
@@ -67,7 +67,7 @@ nav { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; justify
 .section { max-width:1200px; margin:0 auto; padding:96px 56px; }
 .sec-eyebrow { font-family:"DM Mono",monospace; font-size:.67rem; color:var(--muted2); text-transform:uppercase; letter-spacing:2px; margin-bottom:8px; }
 .sec-title { font-family:"Cormorant Garamond",serif; font-size:clamp(2.2rem,3.5vw,3.2rem); font-weight:700; letter-spacing:-1px; margin-bottom:56px; line-height:1.1; color:var(--text); }
-.sec-title em { font-style:italic; font-weight:400; color:var(--muted); }
+.sec-title em { font-style:italic; font-weight:400; color:#f2ba21; }
 hr.div { border:none; border-top:1px solid var(--border); }
 
 /* ━━ ABOUT with background ━━ */
@@ -88,10 +88,10 @@ hr.div { border:none; border-top:1px solid var(--border); }
 /* ── PROJECTS ── */
 .projects-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:20px; }
 .proj { background:var(--card); border:1px solid var(--border); border-radius:16px; overflow:hidden; transition:all .25s; display:flex; flex-direction:column; }
-.proj:hover { border-color:var(--border2); transform:translateY(-3px); box-shadow:0 10px 36px rgba(0,0,0,.08); }
+.proj:hover { border-color:var(--border2); transform:translateY(-3px); box-shadow:0 10px 36px rgb(244, 177, 165); }
 .proj-banner { width:100%; height:225px; object-fit:cover; display:block; }
 .proj-body { padding:22px 24px; display:flex; flex-direction:column; gap:12px; flex:1; }
-.proj-top { display:flex; justify-content:space-between; align-items:flex-start; gap:10px; }
+.proj-top { display:flex; justify-content:space-between; align-items:flex-start; gap:10px; color:#080808}
 .proj-title { font-family:"Cormorant Garamond",serif; font-size:1.05rem; font-weight:600; line-height:1.3; color:var(--text); }
 .proj-status { font-family:"DM Mono",monospace; font-size:.6rem; padding:3px 9px; border-radius:20px; white-space:nowrap; }
 .s-done { background:#f0fdf4; color:#166534; border:1px solid #bbf7d0; }
@@ -99,7 +99,7 @@ hr.div { border:none; border-top:1px solid var(--border); }
 .proj-metrics { display:flex; gap:16px; padding:10px 0; border-top:1px solid var(--border); }
 .m-val { font-family:"DM Mono",monospace; font-size:.82rem; font-weight:500; color:var(--text2); }
 .m-key { font-family:"DM Mono",monospace; font-size:.6rem; color:var(--muted2); margin-top:1px; }
-.proj-pills { display:flex; flex-wrap:wrap; gap:5px; }
+.proj-pills { display:flex; flex-wrap:wrap; gap:5px; color:#127c29}
 .proj-link { display:inline-flex; align-items:center; gap:5px; font-family:"DM Mono",monospace; font-size:.66rem; color:var(--muted); text-decoration:none; padding-bottom:2px; border-bottom:1px solid var(--border); transition:all .2s; align-self:flex-start; margin-top:4px; }
 .proj-link:hover { color:var(--text); border-color:var(--text); }
 
@@ -279,12 +279,12 @@ footer { border-top:1px solid var(--border); padding:24px 56px; display:flex; ju
     <div class="q-card">
       <div class="q-icon">🗂️</div>
       <div class="q-title" data-fr="Organisation" data-en="Organization">Organisation</div>
-      <div class="q-desc" data-fr="Je fournis des livrables clairs, traçables et reproductibles grâce à une documentation structurée et à l’utilisation d’outils de versionnage ." data-en="I ensure clear, traceable, and reproducible deliverables by applying structured documentation practices and version control workflows."></div>
+      <div class="q-desc" data-fr="Je fournis des livrables clairs, traçables et reproductibles grâce à une documentation structurée et à l’utilisation d’outils de versionnage." data-en="I ensure clear, traceable, and reproducible deliverables by applying structured documentation practices and version control workflows."></div>
     </div>
     <div class="q-card">
       <div class="q-icon">🔎</div>
       <div class="q-title" data-fr="Rigueur" data-en="Rigor">Rigueur</div>
-      <div class="q-desc" data-fr="Je m’appuie sur une veille scientifique et réglementaire continue afin d’intégrer les évolutions des bonnes pratiques, des recommandations professionnelles et des exigences qualité applicables aux projets de recherche clinique" data-en="I continuously update my knowledge of Good Practices, regulatory guidelines, and recommendations from relevant authorities and scientific societies to ensure a rigorous and compliant approach"></div>
+      <div class="q-desc" data-fr="Je m’appuie sur une veille scientifique et réglementaire continue afin d’intégrer les évolutions des bonnes pratiques, des recommandations professionnelles et des exigences qualité applicables aux projets de recherche clinique." data-en="I continuously update my knowledge of Good Practices, regulatory guidelines, and recommendations from relevant authorities and scientific societies to ensure a rigorous and compliant approach."></div>
     </div>
     <div class="q-card">
       <div class="q-icon">💡</div>
@@ -294,12 +294,17 @@ footer { border-top:1px solid var(--border); padding:24px 56px; display:flex; ju
     <div class="q-card">
       <div class="q-icon">🗣️</div>
       <div class="q-title" data-fr="Communication" data-en="Communication">Communication</div>
-      <div class="q-desc" data-fr="Mes régles d'or: j'adapte mon discours à l'interlocuteur en face. Je veille à choisir le bon lexique pour transmettre mes messages. J'adopte une posture bienviellante et pédagogique". data-eng="I adapt my communication style to each audience, carefully choose the right wording to deliver clear and accurate messages, and adopt a supportive and pedagogical approach."></div>
+      <div class="q-desc" data-fr="Mes régles d'or: j'adapte mon discours à l'interlocuteur en face. Je veille à choisir le bon lexique pour transmettre mes messages. J'adopte une posture bienviellante et pédagogique.". data-eng="I adapt my communication style to each audience, carefully choose the right wording to deliver clear and accurate messages, and adopt a supportive and pedagogical approach."></div>
     </div>
     <div class="q-card">
       <div class="q-icon">🤔</div>
       <div class="q-title" data-fr="Esprit analytique" data-en="Analytical mindset">Esprit analytique</div>
-      <div class="q-desc" data-fr="Pour résoudre un problème, je suis capble de décortiquer les éléments sous-jacents et trouver des pistes de solution." data-eng="When facing a challenge, I am able to break down complex problems, identify underlying causes, and develop appropriate solutions."></div>
+      <div class="q-desc" data-fr="Pour résoudre un problème, je suis capble de décortiquer les éléments sous-jacents et trouver des pistes de solution." data-en="When facing a challenge, I am able to break down complex problems, identify underlying causes, and develop appropriate solutions."></div>
+    </div>
+    <div class="q-card">
+      <div class="q-icon">🤝</div>
+      <div class="q-title" data-fr="Communication" data-en="Communication">Communication</div>
+      <div class="q-desc" data-fr="Le travail d’équipe est pour moi une évidence.". data-eng="Teamwork is a natural part of my approach."></div>
     </div>
   </div>
 </section>
