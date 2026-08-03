@@ -6,7 +6,7 @@ MSc in Proteomics - Strasbourg University
 
 License & Attribution
 
-This portfolio was originally based on the work of [(https://github.com/aminatadiallo1)] and is used with their permission.
+This portfolio was originally based on the work of Aminata DIALLO [(https://github.com/aminatadiallo1)] and is used with her permission.
 
 It has been extensively modified and customized to reflect my own professional background, content, design, and functionality.
 
